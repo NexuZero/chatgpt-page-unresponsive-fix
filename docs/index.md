@@ -18,6 +18,8 @@ Long ChatGPT conversations can overload your browser:
 
 This is a **browser rendering problem**, not your computer.
 
+More RAM, faster CPU, or restarting Chrome does **not** fix the root cause.
+
 ---
 
 ## ✅ The Solution
@@ -30,15 +32,16 @@ This project uses **ChatGPT LightSession** to:
 - Keep long sessions fast and responsive
 
 ✔ Your real chat history is **not deleted**  
+✔ Nothing is sent anywhere  
 ✔ Works best with **Google Chrome**
 
 ---
 
 ## 🖥 Supported Systems
 
+- ✅ **Ubuntu / Linux**
 - ✅ **Windows**
 - ✅ **macOS**
-- ✅ **Ubuntu / Linux**
 - ✅ Google Chrome (recommended)
 
 ---
@@ -59,35 +62,61 @@ Each guide includes:
 
 ---
 
-## 🔍 How to Verify It Worked
+## 🔍 Proof & Verification (No screenshots required)
 
-After installing:
+You can verify the fix yourself in under **2 minutes**.
 
-1. Open a long ChatGPT conversation
-2. Press **Shift + Esc** (Chrome Task Manager)
-3. Check the ChatGPT tab memory
-4. Open DevTools → **Performance Monitor**
-5. Watch **DOM Nodes** and **JS Heap**
+### 1) Chrome Task Manager (tab memory)
+1. Open a **very long** ChatGPT conversation
+2. Press **Shift + Esc**
+3. Locate the ChatGPT tab
+4. Observe **Memory footprint**
 
-You should see a **dramatic drop** after LightSession activates.
+**Expected result:**
+- Before: memory keeps climbing over time
+- After: memory stabilizes once LightSession activates
+
+---
+
+### 2) DevTools Performance Monitor (DOM + JS heap)
+1. Open DevTools: **Ctrl + Shift + I**
+2. Open **⋮ → More tools → Performance monitor**
+3. Watch:
+   - **DOM Nodes**
+   - **JS heap size**
+   - **CPU usage**
+
+**Expected result:**
+- DOM Nodes drop dramatically (often **80–95%**)
+- JS heap stabilizes
+- CPU spikes disappear during scrolling
+
+---
+
+### 3) Subjective check (important)
+- Scrolling becomes smooth
+- Typing latency disappears
+- No more “Page Unresponsive” warnings
 
 ---
 
 ## 🔐 Transparency & Safety
 
 - Uses Chrome enterprise policies (expected behavior)
-- No data is sent anywhere
-- You can uninstall and revert at any time
+- No data collection
+- No background services
+- Fully reversible
 
-Source code and scripts are fully visible on GitHub.
+All scripts and changes are visible in the GitHub repository.
 
 ---
 
 ## ⭐ Like this project?
 
 If this saved you from browser crashes:
-- Star the repo ⭐
-- Share it with others who hit the same issue
+
+- ⭐ Star the repo
+- 🔁 Share it with others facing the same issue
 
 GitHub:  
 https://github.com/NexuZero/chatgpt-page-unresponsive-fix
