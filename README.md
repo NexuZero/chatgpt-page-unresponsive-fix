@@ -1,3 +1,4 @@
+
 # ChatGPT “Page Unresponsive” Fix (Long Conversations)
 
 Fix ChatGPT freezing / slow scrolling in very long conversations by trimming the rendered DOM (client-side) — **without deleting your real chat history**.
