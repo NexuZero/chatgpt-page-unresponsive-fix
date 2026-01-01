@@ -8,6 +8,21 @@ Fix ChatGPT freezing / slow scrolling in very long conversations by trimming the
 <p align="center">
   <img src="assets/banner.png" alt="ChatGPT Page Unresponsive Fix banner" width="900">
 </p>
+<p align="center">
+  <a href="https://github.com/NexuZero/chatgpt-page-unresponsive-fix/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/NexuZero/chatgpt-page-unresponsive-fix?style=flat-square">
+  </a>
+  <a href="https://github.com/NexuZero/chatgpt-page-unresponsive-fix/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/NexuZero/chatgpt-page-unresponsive-fix?style=flat-square">
+  </a>
+  <a href="https://github.com/NexuZero/chatgpt-page-unresponsive-fix/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/NexuZero/chatgpt-page-unresponsive-fix?style=flat-square">
+  </a>
+  <img alt="Chrome" src="https://img.shields.io/badge/Chrome-Supported-brightgreen?style=flat-square">
+  <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-Supported-blue?style=flat-square">
+  <img alt="Windows" src="https://img.shields.io/badge/Windows-Supported-blue?style=flat-square">
+  <img alt="macOS" src="https://img.shields.io/badge/macOS-Supported-blue?style=flat-square">
+</p>
 
 
 
