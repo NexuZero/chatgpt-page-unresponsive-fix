@@ -5,6 +5,12 @@ Fix ChatGPT freezing / slow scrolling in very long conversations by trimming the
 ✅ Works best on **Google Chrome** (Windows / macOS / Ubuntu) using automated policy-based installation.
 
 ---
+<p align="center">
+  <img src="assets/banner.png" alt="ChatGPT Page Unresponsive Fix banner" width="900">
+</p>
+
+
+
 
 ## What you get
 - ✅ Stops “Page Unresponsive” on huge threads
